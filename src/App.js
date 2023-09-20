@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Greeting from './Greeting';
+import Greeting from './routes/Greeting';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Route exact path="/" element={<Greeting />} />
       </Routes>
     </BrowserRouter>
-  ); 
-};
+  );
+}
 
-export default App; 
+export default App;
