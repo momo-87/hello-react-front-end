@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+<div align="center">
+  <img src="./photo.png" alt="photo" width="80"/>
+  <img src="./intro.png" alt="logo"/>
+  <br/>  
+  <h2><b>hello-react-front-end</b></h2>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📖 About the Project](#📖-hello-react-front-end)
+  - [🛠 Built With](#🛠-built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [Link to Backend](#link-to-backend)
+- [💻 Getting Started](#💻-getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Author](#👥-author)
+- [🔭 Future Features](#🔭-future-features)
+- [🤝 Contributing](#🤝-contributing)
+- [⭐️ Show your support](#⭐️-support)
+- [🙏 Acknowledgements](#🙏-acknowledgements)
+- [📝 License](#📝-license)
 
-In the project directory, you can run:
+<br>
+# 📖 hello-react-front-end
+>hello-react-front-end fetch and display random greeting messages from 'hello-rails-back-end' API app.
+<br>
 
-### `npm start`
+## 🛠 Built With
+- React
+- Redux
+- Linters
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tech Stack
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://create-react-app.dev/docs/getting-started/">React</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+  </ul>
+</details>
+<details>
+  <summary>API</summary>
+  <ul>
+    <li><a href="https://github.com/momo-87/hello-rails-back-end.git">hello-rails-back-end API</a></li>
+  </ul>
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Key Features
+- Fetch and display random greeting messages from hello-rails-back-end API.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm test`
+### Link to Backend
+- [Rails Backend](https://github.com/momo-87/hello-rails-back-end.git)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Getting Started
+>To get a local copy up and running, follow these steps.
 
-### `npm run build`
+### Prerequisites
+1. Web browser.
+2. Code Editor.
+3. Git-smc.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup
+> To clone this repository to your desired folder, run this command:
+```sh
+  cd my-folder
+  git clone https://github.com/momo-87/hello-react-front-end.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Install
+> Run this command:
+```sh
+  cd my-project
+  npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Usage
+> npm start
+### Run tests
+> npm test
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 👥 Author
+👤 Christian Romuald MOMO TONFACK
+- GitHub: [@githubhandle](https://github.com/Momo-87)
+- Twitter: [@twitterhandle](https://twitter.com/Momo_yde)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/christian-momo/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔭 Future Features
+- [ ] Testing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 Contributing
+> Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/momo-87/hello-react-front-end/issues).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⭐️ Show your support
+>If you like this project just give it a star ⭐️.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🙏 Acknowledgements
+>I would like to thank Microverse comnunity for their supports.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+>This project is [MIT](./LICENSE) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
